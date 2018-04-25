@@ -4,6 +4,9 @@
         <variable
             name="num"
             type="karkos.eric.androidcalculator.util.SetDecimals" />
+        <variable
+            name="calculate"
+            type="karkos.eric.androidcalculator.action.Compute" />
     </data>
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"

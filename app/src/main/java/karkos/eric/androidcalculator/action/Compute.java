@@ -27,9 +27,34 @@ public class Compute {
     }
 
     private void compute() {
-        if(!Double.isNaN(leftValue)) {
+        if (!Double.isNaN(leftValue)) {
             rightValue = Double.parseDouble(mParseNumber.editText.getText().toString());
             mParseNumber.editText.setText("");
+
+            switch (operator) {
+                case '+':
+                    leftValue = this.leftValue + rightValue;
+                    break;
+
+                case '-':
+                    leftValue = this.leftValue - rightValue;
+                    break;
+
+                case '*':
+                    leftValue = this.leftValue - rightValue;
+                    break;
+
+                case '/':
+                    leftValue = this.leftValue - rightValue;
+                    break;
+
+                default:
+                    try {
+                        leftValue = Double.parseDouble(mParseNumber.editText.getText().toString());
+                    } catch (Exception e) {
+                    }
+            }
+
         }
     }
 }
