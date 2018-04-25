@@ -5,6 +5,7 @@ import android.view.View;
 import java.text.DecimalFormat;
 
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
+import karkos.eric.androidcalculator.util.SetDecimals;
 
 public class Compute {
 
@@ -26,7 +27,7 @@ public class Compute {
     public Compute(ActivityMainBinding mBinding) {
         this.mParseNumber = mBinding;
 
-        final DecimalFormat decimalFormat = new DecimalFormat("#.##########");
+        final SetDecimals decimalFormat = new SetDecimals();
 
         // Button listener for addition operator
         mParseNumber.buttonPlus.setOnClickListener(new View.OnClickListener() {

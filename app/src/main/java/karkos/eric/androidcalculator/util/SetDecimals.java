@@ -10,5 +10,9 @@ public final class SetDecimals {
         decimalFormat = new DecimalFormat("#.##########");
     }
 
+    public String format(Double toFormat) {
+        return decimalFormat.format(toFormat);
+    }
+
 
 }
