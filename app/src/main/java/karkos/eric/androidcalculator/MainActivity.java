@@ -8,7 +8,7 @@ import karkos.eric.androidcalculator.action.Compute;
 import karkos.eric.androidcalculator.action.DisplayNumbers;
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity implements IMainActivity {
+public class MainActivity extends AppCompatActivity {
     // Data binding class instance
     ActivityMainBinding binding;
 
@@ -21,10 +21,5 @@ public class MainActivity extends AppCompatActivity implements IMainActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         DisplayNumbers displayNumbers = new DisplayNumbers(binding);
         Compute computeNumbers = new Compute(binding);
-    }
-
-    @Override
-    public void onNumberPress() {
-
     }
 }
