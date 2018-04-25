@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c108d0e-c0a9-448d-9a51-09a2e3c504d0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -120,12 +118,9 @@
       <file leaf-file-name="Compute.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-              <folding>
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="527">
+              <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2796,12 +2791,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

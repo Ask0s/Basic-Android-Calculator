@@ -4,6 +4,8 @@ import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
 
 public class Compute {
 
+    private char operator;
+
     // Data binding
     ActivityMainBinding mParseNumber;
 
@@ -19,13 +21,15 @@ public class Compute {
     private static final char equals = '=';
     private static final char decimal = '.';
 
-    public Compute(ActivityMainBinding mBinding) {
+    public Compute(ActivityMainBinding mBinding, char operator) {
         mParseNumber = mBinding;
+        this.operator = operator;
     }
 
     private void compute() {
         if(!Double.isNaN(leftValue)) {
-            
+            rightValue = Double.parseDouble(mParseNumber.editText.getText().toString());
+            mParseNumber.editText.setText("");
         }
     }
 }
