@@ -4,13 +4,11 @@ import java.text.DecimalFormat;
 
 public final class SetDecimals {
 
-    private DecimalFormat decimalFormat;
+    private final DecimalFormat decimalFormat;
 
     public SetDecimals() {
-
+        decimalFormat = new DecimalFormat("#.##########");
     }
 
-    public void setDecimalFormat() {
-        this.decimalFormat = new DecimalFormat("#.##########");
-    }
+
 }

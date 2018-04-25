@@ -1,11 +1,6 @@
 package karkos.eric.androidcalculator.action;
 
-import android.view.View;
-
-import java.text.DecimalFormat;
-
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
-import karkos.eric.androidcalculator.util.SetDecimals;
 
 public class Compute {
 
@@ -26,47 +21,15 @@ public class Compute {
     private static final char equals = '=';
     private static final char decimal = '.';
 
-    // Decimal format setter
-    private DecimalFormat setDecimalPrecision = new DecimalFormat("#.##########");
-
-    public Compute(ActivityMainBinding mBinding) {
+    public Compute(ActivityMainBinding mBinding, char operator) {
         mParseNumber = mBinding;
-
-        mParseNumber.buttonPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                compute();
-                operator = '+';
-                mParseNumber.infoTextView.setText(mParseNumber.infoTextView.getText().toString()
-                    );
-            }
-        });
+        this.operator = operator;
     }
-
-
-
 
     private void compute() {
         if(!Double.isNaN(leftValue)) {
             rightValue = Double.parseDouble(mParseNumber.editText.getText().toString());
             mParseNumber.editText.setText("");
-
-            switch (operator) {
-                case '+': leftValue = this.leftValue + rightValue; break;
-
-                case '-': leftValue = this.leftValue - rightValue; break;
-
-                case '*': leftValue = this.leftValue - rightValue; break;
-
-                case '/': leftValue = this.leftValue - rightValue; break;
-
-                default:
-                    try {
-                        leftValue = Double.parseDouble(mParseNumber.editText.getText().toString());
-                    }
-                    catch (Exception e){ }
-                }
-
-            }
         }
     }
+}
