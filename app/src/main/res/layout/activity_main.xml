@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+    <data>
+        <variable
+            name="num"
+            type="karkos.eric.androidcalculator.util.SetDecimals" />
+    </data>
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -27,7 +32,7 @@
             android:enabled="false"
             android:gravity="bottom"
             android:lines="2"
-            android:maxLines="2"
+            android:maxLines="1"
             android:textSize="20sp" />
 
         <Button
