@@ -12,18 +12,6 @@ public class MainActivity extends AppCompatActivity implements IMainActivity {
     // Data binding class instance
     ActivityMainBinding binding;
 
-    // Input values
-    private double leftValue = Double.NaN;
-    private double rightValue;
-
-    // Operator variables
-    private static final char divide = '/';
-    private static final char multiply = '*';
-    private static final char minus = '-';
-    private static final char plus = '+';
-    private static final char equals = '=';
-    private static final char decimal = '.';
-
     // Holds next operator of equation to be performed
     private char nextOperator;
 
