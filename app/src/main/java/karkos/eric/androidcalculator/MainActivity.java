@@ -3,7 +3,6 @@ package karkos.eric.androidcalculator;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
 import karkos.eric.androidcalculator.action.Compute;
 import karkos.eric.androidcalculator.action.DisplayNumbers;

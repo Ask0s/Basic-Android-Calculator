@@ -22,8 +22,6 @@ public class Compute {
     private static final char plus = '+';
     private static final char multiply = '*';
     private static final char divide = '/';
-    private static final char equals = '=';
-    private static final char decimal = '.';
 
     public Compute(ActivityMainBinding mBinding) {
         this.mParseNumber = mBinding;
