@@ -7,9 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ca3b8ae-2088-4568-bcd0-b4c3c0c033b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
