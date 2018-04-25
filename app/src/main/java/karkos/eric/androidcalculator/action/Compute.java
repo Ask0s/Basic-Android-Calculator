@@ -68,7 +68,7 @@ public class Compute {
             @Override
             public void onClick(View v) {
                 compute();
-                operator = minus;
+                operator = divide;
                 mParseNumber.infoTextView.setText(decimalFormat.format(leftValue) + "/");
                 mParseNumber.editText.setText(null);
             }
@@ -125,14 +125,14 @@ public class Compute {
                 case '/':
                     leftValue = this.leftValue - rightValue;
                     break;
-
-                default:
-                    try {
-                        leftValue = Double.parseDouble(mParseNumber.editText.getText().toString());
-                    } catch (Exception e) {
-                    }
+                default: break;
             }
-
+        }
+        else {
+            try {
+                leftValue = Double.parseDouble(mParseNumber.editText.getText().toString());
+            } catch (Exception e) {
+            }
         }
     }
 }
