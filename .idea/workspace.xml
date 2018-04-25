@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+              <caret line="82" column="91" lean-forward="false" selection-start-line="82" selection-start-column="91" selection-end-line="82" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#945#1264#0" expanded="true" />
@@ -51,10 +51,10 @@
                 <element signature="e#2128#2129#0" expanded="true" />
                 <element signature="e#2235#2556#0" expanded="true" />
                 <element signature="e#2555#2556#0" expanded="true" />
-                <element signature="e#2662#3074#0" expanded="true" />
-                <element signature="e#3073#3074#0" expanded="true" />
-                <element signature="e#3174#3809#0" expanded="true" />
-                <element signature="e#3808#3809#0" expanded="true" />
+                <element signature="e#2662#3071#0" expanded="true" />
+                <element signature="e#3070#3071#0" expanded="true" />
+                <element signature="e#3171#3806#0" expanded="true" />
+                <element signature="e#3805#3806#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2490,10 +2490,10 @@
             <element signature="e#2128#2129#0" expanded="true" />
             <element signature="e#2235#2556#0" expanded="true" />
             <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2662#3074#0" expanded="true" />
-            <element signature="e#3073#3074#0" expanded="true" />
-            <element signature="e#3174#3809#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
+            <element signature="e#2662#3071#0" expanded="true" />
+            <element signature="e#3070#3071#0" expanded="true" />
+            <element signature="e#3171#3806#0" expanded="true" />
+            <element signature="e#3805#3806#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2512,10 +2512,10 @@
             <element signature="e#2128#2129#0" expanded="true" />
             <element signature="e#2235#2556#0" expanded="true" />
             <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2662#3074#0" expanded="true" />
-            <element signature="e#3073#3074#0" expanded="true" />
-            <element signature="e#3174#3809#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
+            <element signature="e#2662#3071#0" expanded="true" />
+            <element signature="e#3070#3071#0" expanded="true" />
+            <element signature="e#3171#3806#0" expanded="true" />
+            <element signature="e#3805#3806#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2563,7 +2563,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
-          <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+          <caret line="82" column="91" lean-forward="false" selection-start-line="82" selection-start-column="91" selection-end-line="82" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#945#1264#0" expanded="true" />
@@ -2574,10 +2574,10 @@
             <element signature="e#2128#2129#0" expanded="true" />
             <element signature="e#2235#2556#0" expanded="true" />
             <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2662#3074#0" expanded="true" />
-            <element signature="e#3073#3074#0" expanded="true" />
-            <element signature="e#3174#3809#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
+            <element signature="e#2662#3071#0" expanded="true" />
+            <element signature="e#3070#3071#0" expanded="true" />
+            <element signature="e#3171#3806#0" expanded="true" />
+            <element signature="e#3805#3806#0" expanded="true" />
           </folding>
         </state>
       </provider>

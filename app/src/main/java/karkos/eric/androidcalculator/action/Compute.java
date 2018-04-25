@@ -80,7 +80,7 @@ public class Compute {
             public void onClick(View v) {
                 compute();
                 mParseNumber.infoTextView.setText(mParseNumber.infoTextView.getText().toString() +
-                    mParseNumber.infoTextView.getText() + "=" + decimalFormat.format(leftValue));
+                    decimalFormat.format(rightValue) + "=" + decimalFormat.format(leftValue));
                 leftValue = Double.NaN;
                 operator = '_';
             }
@@ -125,6 +125,7 @@ public class Compute {
                 case '/':
                     leftValue = this.leftValue - rightValue;
                     break;
+
                 default: break;
             }
         }
