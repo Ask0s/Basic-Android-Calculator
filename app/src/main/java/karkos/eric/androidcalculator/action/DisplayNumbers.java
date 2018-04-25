@@ -1,66 +1,88 @@
 package karkos.eric.androidcalculator.action;
 
-import android.widget.AdapterView;
+import android.view.View;
 
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
 
 public class DisplayNumbers {
 
-    ActivityMainBinding binding;
+    public DisplayNumbers(final ActivityMainBinding mBinding) {
+        mBinding.buttonZero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "0");
+            }
+        });
 
-    public DisplayNumbers(String num) {
-        int numAsInt = Integer.parseInt(num);
-        switch (numAsInt) {
-            case 0: zero(binding.buttonZero); break;
-            case 1: one(); break;
-            case 2: two(); break;
-            case 3: three(); break;
-            case 4: four(); break;
-            case 5: five(); break;
-            case 6: six(); break;
-            case 7: seven(); break;
-            case 8: eight(); break;
-            case 9: nine(); break;
-        }
-    }
+        mBinding.buttonOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "1");
+            }
+        });
 
-    private void zero(ActivityMainBinding binding) {
+        mBinding.buttonTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "2");
+            }
+        });
 
-    }
+        mBinding.buttonThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "3");
+            }
+        });
 
-    private void one() {
+        mBinding.buttonFour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "4");
+            }
+        });
 
-    }
+        mBinding.buttonFive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "5");
+            }
+        });
 
-    private void two() {
+        mBinding.buttonSix.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "6");
+            }
+        });
 
-    }
+        mBinding.buttonSeven.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "7");
+            }
+        });
 
-    private void three() {
+        mBinding.buttonEight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "8");
+            }
+        });
 
-    }
+        mBinding.buttonNine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "9");
+            }
+        });
 
-    private void four() {
-
-    }
-
-    private void five() {
-
-    }
-
-    private void six() {
-
-    }
-
-    private void seven() {
-
-    }
-
-    private void eight() {
-
-    }
-
-    private void nine() {
-
+        mBinding.buttonDivide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "/");
+            }
+        });
+        
     }
 }
