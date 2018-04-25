@@ -10,9 +10,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c108d0e-c0a9-448d-9a51-09a2e3c504d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" />
-    </list>
+    <list default="true" id="4c108d0e-c0a9-448d-9a51-09a2e3c504d0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
