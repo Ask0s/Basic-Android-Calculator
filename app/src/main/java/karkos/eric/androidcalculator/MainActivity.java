@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import karkos.eric.androidcalculator.action.Compute;
 import karkos.eric.androidcalculator.action.DisplayNumbers;
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements IMainActivity {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         DisplayNumbers displayNumbers = new DisplayNumbers(binding);
+        Compute computeNumbers = new Compute(binding);
     }
 
     @Override
