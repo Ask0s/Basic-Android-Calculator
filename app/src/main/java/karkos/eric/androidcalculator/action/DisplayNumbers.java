@@ -76,5 +76,13 @@ public class DisplayNumbers {
                 mBinding.editText.setText(mBinding.editText.getText() + "9");
             }
         });
+
+        mBinding.buttonDecimal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + ".");
+            }
+        });
+
     }
 }
