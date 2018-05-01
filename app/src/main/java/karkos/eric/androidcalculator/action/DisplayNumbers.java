@@ -84,5 +84,11 @@ public class DisplayNumbers {
             }
         });
 
+        mBinding.buttonExponent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + "^");
+            }
+        });
     }
 }
