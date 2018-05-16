@@ -4,6 +4,7 @@ import android.view.View;
 
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
 
+// This is where the NUMBER and DECIMAL buttons do things
 public class DisplayNumbers {
 
     public DisplayNumbers(final ActivityMainBinding mBinding) {
@@ -74,6 +75,13 @@ public class DisplayNumbers {
             @Override
             public void onClick(View v) {
                 mBinding.editText.setText(mBinding.editText.getText() + "9");
+            }
+        });
+
+        mBinding.buttonDecimal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mBinding.editText.setText(mBinding.editText.getText() + ".");
             }
         });
     }

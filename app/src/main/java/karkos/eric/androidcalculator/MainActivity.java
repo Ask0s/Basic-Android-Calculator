@@ -12,9 +12,6 @@ public class MainActivity extends AppCompatActivity {
     // Data binding class instance
     ActivityMainBinding binding;
 
-    // Holds next operator of equation to be performed
-    private char nextOperator;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
