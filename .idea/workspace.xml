@@ -6,12 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e60d6ab4-c208-401c-a272-20b93e869c0c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/Compute.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/DisplayNumbers.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/action/DisplayNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/util/SetDecimals.java" afterPath="$PROJECT_DIR$/app/src/main/java/karkos/eric/androidcalculator/util/SetDecimals.java" />
-    </list>
+    <list default="true" id="e60d6ab4-c208-401c-a272-20b93e869c0c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/assets/" />
