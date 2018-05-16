@@ -2,6 +2,7 @@ package karkos.eric.androidcalculator.util;
 
 import java.text.DecimalFormat;
 
+// Set decimal precision
 public final class SetDecimals {
 
     private final DecimalFormat decimalFormat;

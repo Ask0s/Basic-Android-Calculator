@@ -7,6 +7,7 @@ import java.text.DecimalFormat;
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
 import karkos.eric.androidcalculator.util.SetDecimals;
 
+// This is where the operators do things
 public class Compute {
 
     private char operator;
@@ -23,6 +24,7 @@ public class Compute {
     private static final char plus = '+';
     private static final char multiply = '*';
     private static final char divide = '/';
+    private static final char exponent = '^';
 
     public Compute(ActivityMainBinding mBinding) {
         this.mParseNumber = mBinding;
@@ -101,6 +103,16 @@ public class Compute {
                 }
             }
         });
+
+        mParseNumber.buttonExponent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                compute();
+                operator = exponent;
+                mParseNumber.infoTextView.setText(decimalFormat.format(leftValue) + "^");
+                mParseNumber.editText.setText(null);
+            }
+        });
     }
 
     private void compute() {
@@ -124,6 +136,9 @@ public class Compute {
                 case '/':
                     leftValue = this.leftValue - rightValue;
                     break;
+
+                case '^':
+                    leftValue = Math.pow(this.leftValue, rightValue);
 
                 default: break;
             }
