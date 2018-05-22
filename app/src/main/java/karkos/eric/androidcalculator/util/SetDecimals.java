@@ -2,15 +2,18 @@ package karkos.eric.androidcalculator.util;
 
 import java.text.DecimalFormat;
 
+// Set decimal precision
 public final class SetDecimals {
 
-    private DecimalFormat decimalFormat;
+    private final DecimalFormat decimalFormat;
 
     public SetDecimals() {
-
+        decimalFormat = new DecimalFormat("#.##########");
     }
 
-    public void setDecimalFormat() {
-        this.decimalFormat = new DecimalFormat("#.##########");
+    public String format(Double toFormat) {
+        return decimalFormat.format(toFormat);
     }
+
+
 }

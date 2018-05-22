@@ -4,6 +4,7 @@ import android.view.View;
 
 import karkos.eric.androidcalculator.databinding.ActivityMainBinding;
 
+// This is where the NUMBER and DECIMAL buttons do things
 public class DisplayNumbers {
 
     public DisplayNumbers(final ActivityMainBinding mBinding) {
@@ -77,52 +78,10 @@ public class DisplayNumbers {
             }
         });
 
-        mBinding.buttonDivide.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mBinding.editText.setText(mBinding.editText.getText() + "/");
-            }
-        });
-
-        mBinding.buttonMultiply.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mBinding.editText.setText(mBinding.editText.getText() + "*");
-            }
-        });
-
-        mBinding.buttonMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mBinding.editText.setText(mBinding.editText.getText() + "-");
-            }
-        });
-
-        mBinding.buttonPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mBinding.editText.setText(mBinding.editText.getText() + "+");
-            }
-        });
-
         mBinding.buttonDecimal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mBinding.editText.setText(mBinding.editText.getText() + ".");
-            }
-        });
-
-        mBinding.buttonEquals.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Create method for evaluating inputs
-            }
-        });
-
-        mBinding.buttonClear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Create method for clearing input
             }
         });
     }
