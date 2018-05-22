@@ -39,8 +39,8 @@
         <Button
             android:id="@+id/buttonSeven"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_below="@id/editText"
             android:text="7"
             android:textSize="20sp" />
@@ -48,8 +48,8 @@
         <Button
             android:id="@+id/buttonEight"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_below="@id/editText"
             android:layout_toRightOf="@id/buttonSeven"
             android:text="8"
@@ -58,8 +58,8 @@
         <Button
             android:id="@+id/buttonNine"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_below="@id/editText"
             android:layout_toRightOf="@id/buttonEight"
             android:text="9"
@@ -68,8 +68,8 @@
         <Button
             android:id="@+id/buttonDivide"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_below="@id/editText"
             android:layout_toRightOf="@id/buttonNine"
             android:text="/"
@@ -78,8 +78,8 @@
         <Button
             android:id="@+id/buttonFour"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonSeven"
             android:text="4"/>
@@ -87,8 +87,8 @@
         <Button
             android:id="@+id/buttonFive"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonEight"
             android:layout_toRightOf="@id/buttonFour"
@@ -97,8 +97,8 @@
         <Button
             android:id="@+id/buttonSix"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonNine"
             android:layout_toRightOf="@id/buttonFive"
@@ -107,8 +107,8 @@
         <Button
             android:id="@+id/buttonMultiply"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonDivide"
             android:layout_toRightOf="@id/buttonSix"
@@ -117,8 +117,8 @@
         <Button
             android:id="@+id/buttonOne"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonFour"
             android:text="1"/>
@@ -126,8 +126,8 @@
         <Button
             android:id="@+id/buttonTwo"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonFive"
             android:layout_toRightOf="@id/buttonOne"
@@ -136,8 +136,8 @@
         <Button
             android:id="@+id/buttonThree"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonSix"
             android:layout_toRightOf="@id/buttonTwo"
@@ -146,8 +146,8 @@
         <Button
             android:id="@+id/buttonMinus"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonMultiply"
             android:layout_toRightOf="@id/buttonThree"
@@ -156,8 +156,8 @@
         <Button
             android:id="@+id/buttonDecimal"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonOne"
             android:text="."/>
@@ -165,8 +165,8 @@
         <Button
             android:id="@+id/buttonZero"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonTwo"
             android:layout_toRightOf="@id/buttonDecimal"
@@ -175,8 +175,8 @@
         <Button
             android:id="@+id/buttonEquals"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonThree"
             android:layout_toRightOf="@id/buttonZero"
@@ -185,8 +185,8 @@
         <Button
             android:id="@+id/buttonPlus"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonMinus"
             android:layout_toRightOf="@id/buttonEquals"
@@ -195,8 +195,8 @@
         <Button
             android:id="@+id/buttonExponent"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonDecimal"
             android:text="^" />
@@ -204,8 +204,8 @@
         <Button
             android:id="@+id/buttonClear"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:textSize="20sp"
             android:layout_below="@id/buttonPlus"
             android:layout_alignParentRight="true"
