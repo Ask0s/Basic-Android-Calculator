@@ -113,6 +113,7 @@ public class Compute {
                 mParseNumber.editText.setText(null);
             }
         });
+
     }
 
     private void compute() {
@@ -139,6 +140,9 @@ public class Compute {
 
                 case '^':
                     leftValue = Math.pow(this.leftValue, rightValue);
+
+                case 'e':
+                    leftValue = Math.exp(rightValue);
 
                 default: break;
             }
