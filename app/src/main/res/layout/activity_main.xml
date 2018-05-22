@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:alpha="1"
             android:shadowColor ="#008080"
             android:shadowRadius="1" />
@@ -43,7 +43,7 @@
             android:layout_height="75dp"
             android:layout_below="@id/editText"
             android:text="7"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/buttonEight"
@@ -53,7 +53,7 @@
             android:layout_below="@id/editText"
             android:layout_toRightOf="@id/buttonSeven"
             android:text="8"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/buttonNine"
@@ -63,7 +63,7 @@
             android:layout_below="@id/editText"
             android:layout_toRightOf="@id/buttonEight"
             android:text="9"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/buttonDivide"
@@ -73,14 +73,14 @@
             android:layout_below="@id/editText"
             android:layout_toRightOf="@id/buttonNine"
             android:text="/"
-            android:textSize="20sp"/>
+            android:textSize="25sp"/>
 
         <Button
             android:id="@+id/buttonFour"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonSeven"
             android:text="4"/>
 
@@ -89,7 +89,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonEight"
             android:layout_toRightOf="@id/buttonFour"
             android:text="5"/>
@@ -99,7 +99,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonNine"
             android:layout_toRightOf="@id/buttonFive"
             android:text="6"/>
@@ -109,7 +109,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonDivide"
             android:layout_toRightOf="@id/buttonSix"
             android:text="*"/>
@@ -119,7 +119,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonFour"
             android:text="1"/>
 
@@ -128,7 +128,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonFive"
             android:layout_toRightOf="@id/buttonOne"
             android:text="2"/>
@@ -138,7 +138,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonSix"
             android:layout_toRightOf="@id/buttonTwo"
             android:text="3"/>
@@ -148,7 +148,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonMultiply"
             android:layout_toRightOf="@id/buttonThree"
             android:text="-"/>
@@ -158,7 +158,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonOne"
             android:text="."/>
 
@@ -167,7 +167,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonTwo"
             android:layout_toRightOf="@id/buttonDecimal"
             android:text="0"/>
@@ -177,7 +177,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonThree"
             android:layout_toRightOf="@id/buttonZero"
             android:text="="/>
@@ -187,7 +187,7 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonMinus"
             android:layout_toRightOf="@id/buttonEquals"
             android:text="+"/>
@@ -197,8 +197,9 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
-            android:layout_below="@id/buttonDecimal"
+            android:textSize="25sp"
+            android:layout_below="@id/editText"
+            android:layout_toRightOf="@id/buttonDivide"
             android:text="^" />
 
         <Button
@@ -206,10 +207,18 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_below="@id/buttonPlus"
             android:layout_alignParentRight="true"
             android:text="C"/>
+
+        <Button
+            android:id="@+id/buttonNatExp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:textSize="25sp"
+            android:layout_below="@id/buttonExponent"
+            android:layout_toRightOf="@id/buttonMultiply" />
 
     </RelativeLayout>
 </layout>
